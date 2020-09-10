@@ -1,0 +1,16 @@
+.sidebarChat {
+    display: flex;
+    align-items: center;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lightgray;
+        border-radius: .625rem;
+    }
+
+    & > p {
+        margin-left: 1.25rem;
+    }
+}

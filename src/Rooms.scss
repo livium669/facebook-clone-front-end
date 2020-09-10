@@ -1,0 +1,37 @@
+.rooms {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: .625rem;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+
+    &__top {
+        display: flex;
+        padding: 1rem;
+        padding-bottom: 1rem;
+        align-items: center;
+
+        & > h3 {
+            font-size: medium;
+            font-weight: 500;
+            margin: 0 10px;
+        }
+    }
+
+    &__p {
+        flex: 1;
+        color: gray;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: .625rem;
+        cursor: pointer;
+    }
+
+
+
+}

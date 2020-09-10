@@ -1,0 +1,29 @@
+.chat {
+    flex: 0.80;
+    padding: 25px 5px;
+
+    &__sponsored {
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 1rem;
+
+        & > h3 {
+            color: gray;
+            font-weight: 500;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+        padding-top: .625rem;
+        align-items: center;
+    }
+
+    &__contactsTitle {
+
+        & > h3 {
+            color: gray;
+            font-weight: 500;
+        }
+    }
+}    
